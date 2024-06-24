@@ -1,6 +1,7 @@
 import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
 import Image from "next/image";
 import { projectData } from "../../data";
+import Link from "next/link";
 export default function Projects() {
   return (
     <>
@@ -23,12 +24,14 @@ export default function Projects() {
               {/*Project Details  */}
               <div className="h-[10.5rem] lg:h-[25vh] lg:w-[80%]   w-[95%]">
                 {/*Project Title  */}
-                <div className="w-[100%] text-md font-semibold h-[2rem] lg:gap-2 hover:text-blue-600  flex items-center ">
-                  {item.title}
-                  <span className="cursor-pointer">
-                    <ArrowOutwardIcon style={{ fontSize: "14px" }} />
-                  </span>
-                </div>
+                <Link href={item.link} target="_blank">
+                 <div className="w-[100%] text-md font-semibold h-[2rem] lg:gap-2 hover:text-blue-600  flex items-center ">
+                     {item.title}                  
+                      <span className="cursor-pointer">
+                       <ArrowOutwardIcon style={{ fontSize: "14px" }} />
+                     </span>                 
+                 </div>
+                  </Link>
                 {/* Project */}
                 <div className="min-h-[6.5rem] text-sm  flex items-center">
                   {item.desc}

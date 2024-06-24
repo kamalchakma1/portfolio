@@ -5,7 +5,8 @@ export const projectData = [
     desc: "This is my personal portfolio that you currenly on.I have build this to show case my works, work experience and contact details.",
     img: portfiopic,
     techUsed: ["Next Js", "TailwindCSS", "Recoil"],
-  }
+    link: "https://github.com/kamalchakma1/portfolio",
+  },
 ];
 
 export const experienceData = [
