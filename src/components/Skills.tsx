@@ -14,7 +14,7 @@ import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 export default function Skills(){
     return(
-        <div className="w-[100%] lg:w-[100%]  min-h-[30vh]  flex flex-wrap items-center pl-6 lg:pl-16 lg:pr-16 gap-2">
+        <div className="w-[100%] lg:w-[100%]  min-h-[30vh]  flex flex-wrap items-center pl-7 lg:pl-16 lg:pr-16 gap-2">
           <div className="w-[4rem] flex items-center hover:text-blue-600 justify-center text-lg cursor-pointer shadow-md hover:scale-105 transition-all duration-100 border-[0.5px] border-gray-100 h-[4rem] rounded-full ">
             <FaReact style={{fontSize:"40px"}}/>
           </div>

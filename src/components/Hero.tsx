@@ -14,7 +14,7 @@ export default function Hero() {
           </a>
         </div>
       </div>
-      <div className="h-[30vh]  text-gray-300   items-center pt-[11rem]  lg:pt-[4rem] flex flex-col gap-4  justify-center">
+      <div className="h-[30vh]  text-gray-300   items-center pt-[6.5rem]  lg:pt-[4rem] flex flex-col gap-4  justify-center">
         <span>see more about me</span>
         <span className="animate-animation-bounce cursor-pointer hover:text-black">
           <Link to="about" spy={true} smooth={true}>

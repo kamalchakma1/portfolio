@@ -13,7 +13,7 @@ export default function Experience() {
                 </h1>
               </div>
               <div className="w-[50%]   flex flex-col items-end  justify-end">
-                <h3 className="lg:text-[0.7rem] text-[0.6rem] font-medium">
+                <h3 className="lg:text-[0.7rem] text-[0.7rem] font-medium">
                   {data.period}
                 </h3>
                 <h1 className="lg:text-[0.75rem] text-[0.65rem] text-gray-400">
