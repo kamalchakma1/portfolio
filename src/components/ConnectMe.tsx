@@ -19,7 +19,7 @@ export default function ConnectMe() {
           </a>
         </span>
         <span className="cursor-pointer hover:text-blue-600">
-          <a href="" target="_blank">
+          <a href={process.env.X_LINK} target="_blank">
             <XIcon style={{ fontSize: "20px" }} />
           </a>
         </span>
