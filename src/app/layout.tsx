@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Providers from "@/components/Providers";
+import { Analytics } from "@vercel/analytics/react"
 
 const comfortaa = Comfortaa({ subsets: ["latin"] });
 export const metadata: Metadata = {
@@ -24,6 +25,7 @@ export default function RootLayout({
             <Navbar />
           </div>
           {children}
+          <Analytics/>
           <div className="mt-10">
             <Footer />
           </div>
