@@ -1,4 +1,5 @@
 import portfiopic from "./public/portfoliopic.png"
+import dmwspic from "./public/dmws.png"
 export const projectData = [
   {
     title: "Portfolio",
@@ -6,6 +7,13 @@ export const projectData = [
     img: portfiopic,
     techUsed: ["Next Js", "TailwindCSS", "Recoil"],
     link: "https://github.com/kamalchakma1/portfolio",
+  },
+  {
+    title: "Dhamma Metta Welfare Society",
+    desc: "A simple website for an NGO to showcase their works.I built it as well as I am responsible to maintain it.",
+    img: dmwspic,
+    techUsed: ["React", "TailwindCSS"],
+    link: "https://dmws.vercel.app",
   },
 ];
 

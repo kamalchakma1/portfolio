@@ -7,7 +7,7 @@ export default function Hero() {
     <div className="w-[100%] h-[95vh] lg:pt-[12rem] lg:mt-10 pt-[8rem]  flex flex-col justify-center items-center">
       <div className=" h-[59vh] leading-[3rem]   justify-center  flex flex-col gap-4 items-left text-[3rem] lg:text-[6rem] font-extrabold">
         <span>{`Hi! I'm Kamal,`}</span>
-        <span className="text-[1.8rem] lg:text-[3rem] lg:mt-6">{`a Frontend Developer`}</span>
+        <span className="text-[1.8rem] lg:text-[3rem] lg:mt-6">{`a Full-Stack Developer`}</span>
         <div className=" h-[3rem]  flex items-center justify-center mt-8">
           <a href="mailto:kamalchakma1@outlook.com">
             <ButtonComp props={"Hire Me"} />
