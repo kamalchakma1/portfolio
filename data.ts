@@ -21,7 +21,7 @@ export const experienceData = [
   {
     role: "Software Engineer",
     company: "Access Automation Pvt.Ltd",
-    period: "Feb,23 - Present",
+    period: "Feb 2023 - Sept 2024",
     loaction: "Bengaluru, India",
     desc: "Build full stack application from scratch and maintain applications with latest technology such as React, Next.Js, Node.JS and MySQL.Developed AI tools that help team to increase their productivity. ",
   }
